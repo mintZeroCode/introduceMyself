@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/introduceMyself/static/css/main.6dea0f05.chunk.css",
-    "main.js": "/introduceMyself/static/js/main.3c2f91b0.chunk.js",
-    "main.js.map": "/introduceMyself/static/js/main.3c2f91b0.chunk.js.map",
+    "main.js": "/introduceMyself/static/js/main.1f53bb96.chunk.js",
+    "main.js.map": "/introduceMyself/static/js/main.1f53bb96.chunk.js.map",
     "runtime-main.js": "/introduceMyself/static/js/runtime-main.e0764015.js",
     "runtime-main.js.map": "/introduceMyself/static/js/runtime-main.e0764015.js.map",
     "static/js/2.99976178.chunk.js": "/introduceMyself/static/js/2.99976178.chunk.js",
@@ -20,7 +20,7 @@
     "static/media/mysql.68c8655e.svg": "/introduceMyself/static/media/mysql.68c8655e.svg",
     "static/media/next.fbe98a51.jpeg": "/introduceMyself/static/media/next.fbe98a51.jpeg",
     "static/media/node.31d93e46.svg": "/introduceMyself/static/media/node.31d93e46.svg",
-    "static/media/project.25d0ccfe.jpg": "/introduceMyself/static/media/project.25d0ccfe.jpg",
+    "static/media/project.a85b4ea3.jpg": "/introduceMyself/static/media/project.a85b4ea3.jpg",
     "static/media/react.05c79bfe.svg": "/introduceMyself/static/media/react.05c79bfe.svg",
     "static/media/redux.b3b939c6.png": "/introduceMyself/static/media/redux.b3b939c6.png",
     "static/media/sequelize.61437a90.svg": "/introduceMyself/static/media/sequelize.61437a90.svg"
@@ -29,6 +29,6 @@
     "static/js/runtime-main.e0764015.js",
     "static/js/2.99976178.chunk.js",
     "static/css/main.6dea0f05.chunk.css",
-    "static/js/main.3c2f91b0.chunk.js"
+    "static/js/main.1f53bb96.chunk.js"
   ]
 }
