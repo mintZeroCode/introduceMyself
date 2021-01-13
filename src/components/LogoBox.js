@@ -13,7 +13,7 @@ const LogoBox = ({ imgSrc, title }) => {
             margin: "5px",
             borderRadius: "10px",
             width: "120px",
-            height: "130px",
+            height: "120px",
           }}
         >
           <Image
@@ -27,6 +27,7 @@ const LogoBox = ({ imgSrc, title }) => {
             style={{
               fontSize: "13px",
               fontWeight: "600",
+              margin: "0px",
             }}
           >
             {title}
