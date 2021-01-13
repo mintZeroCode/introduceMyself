@@ -27,11 +27,11 @@ const Img = styled(Image)`
 `;
 
 const P = styled.p`
-  font-size: 13px;
+  font-size: 20px;
   font-weight: 600;
   margin: 0px;
   @media (max-width: 624px) {
-    font-size: 11px;
+    font-size: 15px;
   }
 `;
 

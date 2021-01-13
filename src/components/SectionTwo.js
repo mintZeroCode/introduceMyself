@@ -54,11 +54,7 @@ const SectionTwo = () => {
             <LogoBox imgSrc={react} title={"REACT"} />
             <LogoBox imgSrc={next} title={"NEXT"} />
             <LogoBox imgSrc={redux} title={"REDUX"} />
-            <LogoBox
-              imgSrc={styledComponents}
-              title={"STYLED COMPOMENTS"}
-              style={{ fontSize: "15px" }}
-            />
+            <LogoBox imgSrc={styledComponents} title={"SC"} />
             <LogoBox imgSrc={bootstrap} title={"BOOTSRAP"} />
           </LogoContainter>
 
