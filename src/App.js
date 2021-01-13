@@ -6,13 +6,9 @@ import SectionTwo from "./components/SectionTwo";
 import SectionThree from "./components/SectionThree";
 import ContractDiv from "./components/ContractDiv";
 
-import { Row, Col } from "react-bootstrap";
-
 const App = () => {
   return (
     <div>
-      {/* <Nav /> */}
-
       <Title title={"About"} />
 
       <SectionOne />
