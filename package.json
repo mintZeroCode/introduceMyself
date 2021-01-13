@@ -6,10 +6,17 @@
     "@testing-library/jest-dom": "^5.11.8",
     "@testing-library/react": "^11.2.2",
     "@testing-library/user-event": "^12.6.0",
+    "active-menu-link": "^1.1.8",
+    "bootstrap": "^4.5.3",
+    "detect-newline": "^3.1.0",
     "react": "^17.0.1",
+    "react-bootstrap": "^1.4.0",
     "react-dom": "^17.0.1",
     "react-scripts": "4.0.1",
-    "web-vitals": "^0.2.4"
+    "react-scrollspy-nav": "^1.2.4",
+    "styled-components": "^5.2.1",
+    "web-vitals": "^0.2.4",
+    "word-wrap": "^1.2.3"
   },
   "scripts": {
     "start": "react-scripts start",
