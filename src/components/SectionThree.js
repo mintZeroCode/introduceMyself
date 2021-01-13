@@ -24,6 +24,7 @@ const List = styled.ul`
   list-style: none;
   padding: 0px 30px;
   text-align: center;
+  font-size: 17px;
 
   @media (max-width: 484px) {
     list-style-type: square;
@@ -77,6 +78,24 @@ const SectionThree = () => {
 
               <ItemContainter>
                 <List>
+                  <li
+                    style={{
+                      listStyle: "none",
+                      fontSize: "25px",
+                      fontWeight: "600",
+                      textAlign: "center",
+                    }}
+                  >
+                    프로젝트 소개
+                  </li>
+                  <li
+                    style={{
+                      listStyle: "none",
+                    }}
+                  >
+                    sns를 지향하고 있으며, 기존 sns 서비스에 구현되어 있는 친구
+                    추가, 포스트 관리도구등을 고안하였습니다.
+                  </li>
                   <li
                     style={{
                       listStyle: "none",

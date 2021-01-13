@@ -38,16 +38,7 @@ const SectionOne = () => {
                 alignItems: "center",
               }}
             >
-              <h1 style={{ color: "#4682B4" }}>
-                포기하지 않는
-                <span
-                  style={{
-                    color: "#5F9EA0",
-                  }}
-                >
-                  개발자
-                </span>
-              </h1>
+              <h1 style={{ color: "#20B2AA" }}>포기하지 않는 개발자</h1>
             </div>
             <div>
               <p
@@ -55,7 +46,7 @@ const SectionOne = () => {
                   display: "flex",
                   justifyContent: "center",
                   alignItems: "center",
-                  fontSize: "22px",
+                  fontSize: "18px",
                 }}
               >
                 포기하지 않고 직면한 문제를 붙들고 있으면 문제를 해결할 수

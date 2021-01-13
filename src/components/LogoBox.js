@@ -22,7 +22,7 @@ const Img = styled(Image)`
   height: 80px;
   @media (max-width: 624px) {
     width: 50px;
-    height: 50px;
+    height: 43px;
   }
 `;
 
