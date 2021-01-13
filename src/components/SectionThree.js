@@ -8,7 +8,7 @@ import styled from "styled-components";
 
 const ProjectContainter = styled.div`
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
   flex-wrap: wrap;
 `;
@@ -24,6 +24,7 @@ const TitleContainter = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
+  font-size: 30px;
 `;
 
 const SectionThree = () => {
@@ -34,11 +35,12 @@ const SectionThree = () => {
           margin: "0 auto",
         }}
       >
-        <Col style={{}}>
+        <Col>
           <ProjectContainter>
             <div
-              style={{ width: "700px", height: "400px", marginBottom: "20px" }}
+              style={{ width: "300px", height: "600px", marginBottom: "20px" }}
             >
+              {/* <TitleContainter>interfree</TitleContainter> */}
               <img src={projectImg} style={{ width: "100%", height: "100%" }} />
             </div>
             <div>
@@ -72,17 +74,14 @@ const SectionThree = () => {
 
               <ItemContainter>
                 <br />
-
                 <br />
                 <br />
                 <ul
                   style={{
-                    listStyle: "none",
+                    listStyleType: "decimal",
+                    padding: "0px 30px",
                   }}
                 >
-                  <li> 사용한 기능들은 다음과 같습니다.</li>
-                  <br />
-
                   <li> aws의 ec2 우분투 서버와 s3스트리지 사용</li>
                   <li>multer를 사용해 파일 업로드</li>
                   <li>passport를 사용하여 로그인/회원가입 처리</li>
@@ -95,7 +94,13 @@ const SectionThree = () => {
                   <li> chart.js를 사용하여 개인 사용자 차트 구현</li>
                   <li> react-toastfy를 사용하여 사용자 알림 구현</li>
                   <br />
-                  <li> 더 상세한 내용은 깃허브 링크에서 보실 수 있습니다.</li>
+                  <li
+                    style={{
+                      listStyle: "none",
+                    }}
+                  >
+                    더 상세한 내용은 깃허브 링크에서 보실 수 있습니다.
+                  </li>
                 </ul>
               </ItemContainter>
             </div>

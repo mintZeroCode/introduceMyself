@@ -12,8 +12,8 @@ const LogoBox = ({ imgSrc, title }) => {
             padding: "5px",
             margin: "5px",
             borderRadius: "10px",
-            width: "130px",
-            height: "140px",
+            width: "120px",
+            height: "130px",
           }}
         >
           <Image
@@ -21,12 +21,11 @@ const LogoBox = ({ imgSrc, title }) => {
             style={{
               width: "80px",
               height: "80px",
-              flex: "1",
             }}
           />
           <p
             style={{
-              fontSize: "15px",
+              fontSize: "13px",
               fontWeight: "600",
             }}
           >

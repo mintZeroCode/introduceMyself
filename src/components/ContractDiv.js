@@ -27,7 +27,7 @@ const ContractDiv = () => {
       <ContactContainter>
         <div style={{ margin: "0px 15px 40px 0px" }}>
           <P>Github</P>
-          <Link href="https://github.com/mintZeroCode">
+          <Link href="https://github.com/mintZeroCode" target="_blank">
             https:/github.com/mintZeroCode
           </Link>
         </div>
@@ -40,7 +40,7 @@ const ContractDiv = () => {
         <div style={{ margin: "0px 15px 40px 0px" }}>
           <P>Blog</P>
           <P>
-            <Link href="https://blog.naver.com/objconsolelog">
+            <Link href="https://blog.naver.com/objconsolelog" target="_blank">
               https://blog.naver.com/objconsolelog
             </Link>
           </P>
