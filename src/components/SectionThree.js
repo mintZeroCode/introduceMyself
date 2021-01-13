@@ -20,11 +20,14 @@ const ItemContainter = styled.div`
   font-size: 20px;
 `;
 
-const TitleContainter = styled.div`
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 30px;
+const List = styled.ul`
+  list-style: none;
+  padding: 0px 30px;
+  text-align: center;
+
+  @media (max-width: 484px) {
+    list-style-type: square;
+  }
 `;
 
 const SectionThree = () => {
@@ -73,15 +76,17 @@ const SectionThree = () => {
               </ItemContainter>
 
               <ItemContainter>
-                <br />
-                <br />
-                <br />
-                <ul
-                  style={{
-                    listStyleType: "decimal",
-                    padding: "0px 30px",
-                  }}
-                >
+                <List>
+                  <li
+                    style={{
+                      listStyle: "none",
+                      fontSize: "25px",
+                      fontWeight: "600",
+                      textAlign: "center",
+                    }}
+                  >
+                    주요 특징
+                  </li>
                   <li> aws의 ec2 우분투 서버와 s3스트리지 사용</li>
                   <li>multer를 사용해 파일 업로드</li>
                   <li>passport를 사용하여 로그인/회원가입 처리</li>
@@ -101,7 +106,7 @@ const SectionThree = () => {
                   >
                     더 상세한 내용은 깃허브 링크에서 보실 수 있습니다.
                   </li>
-                </ul>
+                </List>
               </ItemContainter>
             </div>
           </ProjectContainter>
