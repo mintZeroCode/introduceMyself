@@ -50,7 +50,7 @@ const SectionTwo = () => {
           <LogoContainter>
             <LogoBox imgSrc={html} title={" HTML5"} />
             <LogoBox imgSrc={css3} title={"CSS3"} />
-            <LogoBox imgSrc={javaScript} title={"JAVA SCRIPT"} />
+            <LogoBox imgSrc={javaScript} title={"JS"} />
             <LogoBox imgSrc={react} title={"REACT"} />
             <LogoBox imgSrc={next} title={"NEXT"} />
             <LogoBox imgSrc={redux} title={"REDUX"} />
