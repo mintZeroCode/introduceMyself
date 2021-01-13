@@ -31,7 +31,7 @@ const P = styled.p`
   font-weight: 600;
   margin: 0px;
   @media (max-width: 624px) {
-    font-size: 15px;
+    font-size: 17px;
   }
 `;
 
