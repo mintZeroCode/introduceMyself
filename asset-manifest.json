@@ -1,17 +1,15 @@
 {
   "files": {
-    "main.css": "/introduceMyself/static/css/main.6dea0f05.chunk.css",
-    "main.js": "/introduceMyself/static/js/main.bca99a97.chunk.js",
-    "main.js.map": "/introduceMyself/static/js/main.bca99a97.chunk.js.map",
-    "runtime-main.js": "/introduceMyself/static/js/runtime-main.e0764015.js",
-    "runtime-main.js.map": "/introduceMyself/static/js/runtime-main.e0764015.js.map",
-    "static/js/2.07fa7bd9.chunk.js": "/introduceMyself/static/js/2.07fa7bd9.chunk.js",
-    "static/js/2.07fa7bd9.chunk.js.map": "/introduceMyself/static/js/2.07fa7bd9.chunk.js.map",
-    "static/js/3.911bdf21.chunk.js": "/introduceMyself/static/js/3.911bdf21.chunk.js",
-    "static/js/3.911bdf21.chunk.js.map": "/introduceMyself/static/js/3.911bdf21.chunk.js.map",
+    "main.js": "/introduceMyself/static/js/main.1593d6c0.chunk.js",
+    "main.js.map": "/introduceMyself/static/js/main.1593d6c0.chunk.js.map",
+    "runtime-main.js": "/introduceMyself/static/js/runtime-main.a0a7dc2e.js",
+    "runtime-main.js.map": "/introduceMyself/static/js/runtime-main.a0a7dc2e.js.map",
+    "static/js/2.8ebde2bc.chunk.js": "/introduceMyself/static/js/2.8ebde2bc.chunk.js",
+    "static/js/2.8ebde2bc.chunk.js.map": "/introduceMyself/static/js/2.8ebde2bc.chunk.js.map",
+    "static/js/3.1367ce28.chunk.js": "/introduceMyself/static/js/3.1367ce28.chunk.js",
+    "static/js/3.1367ce28.chunk.js.map": "/introduceMyself/static/js/3.1367ce28.chunk.js.map",
     "index.html": "/introduceMyself/index.html",
-    "static/css/main.6dea0f05.chunk.css.map": "/introduceMyself/static/css/main.6dea0f05.chunk.css.map",
-    "static/js/2.07fa7bd9.chunk.js.LICENSE.txt": "/introduceMyself/static/js/2.07fa7bd9.chunk.js.LICENSE.txt",
+    "static/js/2.8ebde2bc.chunk.js.LICENSE.txt": "/introduceMyself/static/js/2.8ebde2bc.chunk.js.LICENSE.txt",
     "static/media/bootstrap.5d30db8d.svg": "/introduceMyself/static/media/bootstrap.5d30db8d.svg",
     "static/media/css3.8fba365c.svg": "/introduceMyself/static/media/css3.8fba365c.svg",
     "static/media/express.493a0dd0.svg": "/introduceMyself/static/media/express.493a0dd0.svg",
@@ -26,9 +24,8 @@
     "static/media/sequelize.61437a90.svg": "/introduceMyself/static/media/sequelize.61437a90.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.e0764015.js",
-    "static/js/2.07fa7bd9.chunk.js",
-    "static/css/main.6dea0f05.chunk.css",
-    "static/js/main.bca99a97.chunk.js"
+    "static/js/runtime-main.a0a7dc2e.js",
+    "static/js/2.8ebde2bc.chunk.js",
+    "static/js/main.1593d6c0.chunk.js"
   ]
 }
