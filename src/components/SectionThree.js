@@ -19,6 +19,13 @@ const ItemContainter = styled.div`
   align-items: center;
   font-size: 20px;
 `;
+
+const TitleContainter = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+`;
+
 const SectionThree = () => {
   return (
     <div>
@@ -36,7 +43,7 @@ const SectionThree = () => {
             </div>
             <div>
               <ItemContainter>
-                사이트 링크:
+                사이트 링크:&nbsp;
                 <a
                   href="https://interfree.co.kr/"
                   style={{
@@ -50,7 +57,7 @@ const SectionThree = () => {
               </ItemContainter>
 
               <ItemContainter>
-                깃허브:
+                깃허브:&nbsp;
                 <a
                   href="https://github.com/mintZeroCode/portfolio_interfree"
                   style={{
@@ -59,31 +66,37 @@ const SectionThree = () => {
                   }}
                   target="_blank"
                 >
-                  mintZeroCode/portfolio_interfree
+                  portfolio_interfree
                 </a>
               </ItemContainter>
 
               <ItemContainter>
-                위에 나열된 기술스택들을 모두 사용하여 개발하였습니다. 기본적인
-                crud게시판과 함께 친구추가, 포스트 관리 도구들을 고안하였습니다.
                 <br />
-                사용한 기능들은 다음과 같습니다.
+
                 <br />
                 <br />
-                aws의 ec2 우분투 서버와 s3스트리지 사용
-                <br /> multer를 사용해 파일 업로드
-                <br /> passport를 사용하여 로그인/회원가입 처리
-                <br /> next.js의 동적라우팅 사용하여 유저,포스트,검색,해시태그
-                페이지 구현
-                <br /> next.js를 사용하여 ssr 구현
-                <br />
-                redux와 redux-saga를 사용하여 데이터 상태 처리
-                <br />
-                chart.js를 사용하여 개인 사용자 차트 구현
-                <br />
-                react-toastfy를 사용하여 사용자 알림 구현
-                <br />
-                <br />더 상세한 내용은 깃허브 링크에서 보실 수 있습니다.
+                <ul
+                  style={{
+                    listStyle: "none",
+                  }}
+                >
+                  <li> 사용한 기능들은 다음과 같습니다.</li>
+                  <br />
+
+                  <li> aws의 ec2 우분투 서버와 s3스트리지 사용</li>
+                  <li>multer를 사용해 파일 업로드</li>
+                  <li>passport를 사용하여 로그인/회원가입 처리</li>
+                  <li>
+                    next.js의 동적라우팅 사용하여 유저,포스트,검색,해시태그
+                    페이지 구현
+                  </li>
+                  <li>next.js를 사용하여 ssr 구현</li>
+                  <li>redux와 redux-saga를 사용하여 데이터 상태 처리</li>
+                  <li> chart.js를 사용하여 개인 사용자 차트 구현</li>
+                  <li> react-toastfy를 사용하여 사용자 알림 구현</li>
+                  <br />
+                  <li> 더 상세한 내용은 깃허브 링크에서 보실 수 있습니다.</li>
+                </ul>
               </ItemContainter>
             </div>
           </ProjectContainter>
