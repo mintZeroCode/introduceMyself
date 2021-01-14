@@ -94,7 +94,7 @@ const SectionThree = () => {
                   margin: "0px",
                 }}
               >
-                링크(클릭하여 이동)
+                링크
               </p>
               사이트:&nbsp;
               <a
