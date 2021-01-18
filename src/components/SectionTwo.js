@@ -68,22 +68,6 @@ const SectionTwo = () => {
             <LogoBox imgSrc={mysql} title={"MYSQL"} />
             <LogoBox imgSrc={sequelize} title={"SEQUELIZE"} />
           </LogoContainter>
-
-          <TitleContainter>
-            <h1>etc</h1>
-          </TitleContainter>
-
-          <TitleContainter>
-            <p
-              style={{
-                fontSize: "20px",
-                fontWeight: "600",
-                margin: " 0px",
-              }}
-            >
-              react-hook-form, react-toastify, immer, passport, multer...
-            </p>
-          </TitleContainter>
         </Col>
       </Row>
     </div>

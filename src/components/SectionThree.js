@@ -72,9 +72,9 @@ const SectionThree = () => {
               </ItemContainter>
               <p
                 style={{
-                  fontWeight: "600",
+                  fontWeight: "500",
                   fontSize: "25px",
-                  marginBottom: "0px",
+                  marginBottom: "5px",
                 }}
               >
                 프로젝트 소개
@@ -89,9 +89,9 @@ const SectionThree = () => {
               </p>
               <p
                 style={{
-                  fontWeight: "600",
+                  fontWeight: "500",
                   fontSize: "25px",
-                  margin: "0px",
+                  margin: "20px 0px 5px 0px",
                 }}
               >
                 링크
@@ -123,9 +123,9 @@ const SectionThree = () => {
               </div>
               <p
                 style={{
-                  fontWeight: "600",
+                  fontWeight: "500",
                   fontSize: "25px",
-                  margin: "0px",
+                  margin: "20px 0px 5px 0px",
                 }}
               >
                 주요 사용 기술
